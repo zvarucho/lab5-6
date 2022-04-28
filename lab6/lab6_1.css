@@ -1,0 +1,238 @@
+.title {
+    position: relative;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.fullwrap {
+    display: flex;
+    width: 1200px;
+    height: 560px;
+    border: 2px solid rgb(169, 169, 169);
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+.goods1 {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid rgb(169, 169, 169);
+}
+.goods2 {
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid rgb(169, 169, 169);
+}
+.goods3 {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid rgb(169, 169, 169);
+}
+.goods4 {
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+.name {
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 110px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(169, 169, 169);
+}
+.name a{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(169, 169, 169);
+}
+.photo1 {
+    display: flex;
+    width: 70%;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url("https://cf.gorgany.com/catalog/product/cache/5f3efa0a8fec5fde77fda58c9d0d06d0/j/e/jetboil_flash_carbon_8_18_20180314120937-1000x1000_qabhdjokrxn4zjma.jpg") no-repeat center center / cover;
+}
+.photo2 {
+    display: flex;
+    width: 70%;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url("https://cf.gorgany.com/catalog/product/cache/5f3efa0a8fec5fde77fda58c9d0d06d0/p/r/primus_737900_trailbreak_mug_16_hhk4b4vub4qwsod9.jpg") no-repeat center center / cover;
+}
+.photo3 {
+    display: flex;
+    width: 70%;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url("https://cf.gorgany.com/catalog/product/cache/5f3efa0a8fec5fde77fda58c9d0d06d0/v/i/vict_0_9023_outrider_13_xoczbszfoidccwok.jpg") no-repeat center center / cover;
+}
+.photo4 {
+    display: flex;
+    width: 70%;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url("https://cf.gorgany.com/catalog/product/cache/5f3efa0a8fec5fde77fda58c9d0d06d0/p/e/petzl_actik_core_450lm_black_e099ga00_1_19_k07nbe6fokipcugh.jpeg") no-repeat center center / cover;
+}
+.tovar{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.tovar a{
+    position: relative;
+    top: 10px;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(24, 167, 224);
+}
+.prise {
+    position: relative;
+    top: 10px;
+    display: flex;
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.del{
+    text-decoration: line-through; 
+    font-size: 14px;
+    font-weight: bold;
+}
+.prise p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.missing {
+    position: relative;
+    top: 0;
+    display: flex;
+    background-color: rgb(233, 23, 219);
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.buy {
+    position: relative;
+    top: 20px;
+    display: flex;
+    background-color: rgb(236, 240, 2);
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.missing a {
+   
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.buy a {
+
+    display: flex;
+    padding: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.stiker_new p {
+  position: relative;
+  top: 17px;
+}
+.stiker_hit p {
+    position: relative;
+  top: 7px;
+}
+.stiker {
+    position: absolute;
+    right: 10px;
+    top: -45px;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+}
+.stiker_new {
+    background: rgb(8, 187, 8);
+}
+.stiker_hit {
+    background: blue;
+}
+.arrow {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid rgb(169, 169, 169);
+    text-align: center;
+    justify-content: center;
+    background: #fff;
+    color: rgb(169, 169, 169);
+    font-size: 25px;
+    font-weight: bold;
+}
+.arrow_left {
+    position: absolute;
+    left: -34px;
+    top: 90px;
+}
+.arrow_right {
+    position: absolute;
+    right: -34px;
+    top: 90px;
+}
+.arrow p {
+    position: relative;
+    bottom: 21px;
+}
+.next p  {
+    margin-left: 30%;
+    font-weight: bold;
+    color: #ccc;
+    font-size: 18px;
+    display: inline-block;
+    padding: 20px 260px;
+    text-decoration: none; 
+}
+.btns{ 
+  display: inline-block;
+  background-color: #35c216;
+  color: #fff;
+  padding: 7px 30px;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
